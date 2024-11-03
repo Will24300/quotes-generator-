@@ -1,10 +1,9 @@
-import React from "react";
-import Form from "./components/Form";
+import QuoteGenerator from "./components/QuoteGenerator";
 
 const App = () => {
   return (
     <div>
-      <Form />
+      <QuoteGenerator />
     </div>
   );
 };

@@ -1,57 +1,27 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(
-    to right,
-    rgb(175, 224, 255) 0%,
-    rgb(14, 23, 154) 100%
-  );
+  background-color: #000000f3;
+  color: #fff;
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  font-family: "Trebuchet Ms";
-}
-.container {
-  background-color: white;
-  width: 80%;
-  height: 300px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-.container .left img {
-  width: 250px;
-  height: 300px;
-}
-.container form {
   text-align: center;
-  margin: 0px 10px;
+  font-family: "Trebuceht Ms";
+}
+h1:first-child {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: teal;
   width: 350px;
+  margin: 25px auto;
+  padding: 10px 0px;
+  border-radius: 10px;
 }
-.container form input {
-  width: 90%;
-  padding: 3px 0px 3px 10px;
-  margin: 8px 0px;
+button {
+  background-color: white;
+  padding: 8px 25px;
   border: none;
-  outline: none;
-  border-bottom: 1px solid #111;
-}
-.container form span {
-  font-size: 14px;
-  color: red;
-  /* display: none; */
-}
-.container form button {
-  margin-top: 10px;
-  font-size: 14px;
-  background-color: rgb(14, 23, 154);
-  color: white;
-  border: none;
-  padding: 5px 25px;
-  border-radius: 5px;
+  border-radius: 15px;
 
   cursor: pointer;
 }
